@@ -30,6 +30,17 @@ argon2 = ["argon2-cffi (>=19.1.0)"]
 bcrypt = ["bcrypt"]
 
 [[package]]
+name = "djangorestframework"
+version = "3.15.1"
+description = "Web APIs for Django, made easy."
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+django = ">=3.0"
+
+[[package]]
 name = "sqlparse"
 version = "0.4.4"
 description = "A non-validating SQL parser."
@@ -61,11 +72,12 @@ python-versions = ">=2"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "7a37292e18d120c324606fc387dc64ff9f8992bcfd35a9e5caf563a522c78ae8"
+content-hash = "59acf389c85349dad20d80363e4771700461a7984951f173b208ed264f3566ce"
 
 [metadata.files]
 asgiref = []
 django = []
+djangorestframework = []
 sqlparse = []
 typing-extensions = []
 tzdata = []
